@@ -1,0 +1,19 @@
+.Left_nav {
+	width: 100px;
+	margin: 10px 0px 15px 10px;
+}
+.Left_nav li {
+	margin-bottom: 5px;
+	text-align: left;
+	font-size: 18px;
+	text-shadow:1px 1px 0px #000000;
+}                              /*В СПОКОЙНОМ СОСТОЯНИИ - ЦВЕТ ССЫЛКИ ВЕРХНЕГО МЕНЮ С ЛЕВА*/
+.Left_nav ul li a {
+	color: #e2e2e2;
+} 
+.Left_nav ul li a:hover {
+	color: #FFAC00;
+}                                    /*ПРИ ЩЕЛЧКЕ - ЦВЕТ ССЫЛКИ ВЕРХНЕГО МЕНЮ С ЛЕВА*/
+.Left_nav .active{
+	color: #FFAC00;
+}

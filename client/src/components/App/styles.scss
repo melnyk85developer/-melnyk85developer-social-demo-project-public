@@ -1,0 +1,125 @@
+/*
+================================ RESSET CSS ===========================
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul, li {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*
+///////////////////////////////////////
+*/
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html {
+	font-family: "courier new", verdana;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust:100%;
+}
+a, h1, h2, h3, h4, h5, h6 {
+	-webkit-transition: all 0.3s linear 0s;
+	-moz-transition: all 0.3s linear 0s;
+	-o-transition: all 0.3s linear 0s;
+	transition: all 0.3s linear 0s;
+	text-decoration: none;
+	text-shadow: -3px -2px 1px #000000;
+}
+h2 {
+	margin: 20px 5px;
+	font-size: 30px;
+	color: #FEA930;
+	text-align: center;
+}
+a:link, a:visited , a:hover, :active {
+	outline: 0;
+}
+p { 
+	color: var(--main-text-color);
+	font-size: 18px;
+	text-shadow: -3px -2px 1px #000000;
+	font-family: "courier new", verdana ;
+}
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  	'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	--header-background-color: #e2e2e2;
+	--header-background-color: #e2e2e2;
+  
+	--main-background-color: #e2e2e2;
+	--main-text-color: #c1c1c1;
+  
+	--footer-background-color: #1f5ac7;
+	--footer-text-color: #e2e2e2;
+}
+body.dark {
+  	margin: 0;
+  	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+//===================================
+	--header-background-color: -webkit-gradient( linear, left top, left bottom, color-stop(0.15, #353535), color-stop(1, #101010) );
+	--header-background-color: -moz-linear-gradient( center top, #353535 05%, #101010 95% );
+	--header-background: -webkit-gradient( linear, left top, left bottom, color-stop(0.03, #252525), color-stop(1.5, #080808) ); /*ДЛЯ ХРОМА*/
+	
+	--header-text-color: #e2e2e2;
+
+	--main-background-color: #e2e2e2;
+	--main-text-color: #000536;
+
+	--footer-background-color: #1f5ac7;
+	--footer-text-color: #e2e2e2;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
