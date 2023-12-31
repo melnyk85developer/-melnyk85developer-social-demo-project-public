@@ -1,0 +1,34 @@
+.contentVideo {
+    width: 100%;
+	margin-top: 33px;
+}
+.contentVideo h1 {
+	text-align: center;
+}
+.wrap_nav_video {
+    position: fixed;
+    margin-top: -65px;
+    margin-left: 195px;
+	z-index: 9999;
+}
+.wrap_nav_video h1 {
+    text-align: center;
+}
+.wrap_nav_video ul li {
+	float: left;
+	text-align: center;
+	font-size: 18px;
+	text-shadow:1px 1px 0px #000000;
+}                              
+.wrap_nav_video ul li a {
+	color: #139EFB;	
+}                            
+.wrap_nav_video ul li a:hover {
+	color: #FFAC00;
+}                                
+.menu {
+    margin-top: -170px;
+}
+.wrap_nav_video .active {
+	color: #FFAC00;
+}
